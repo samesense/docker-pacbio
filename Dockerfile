@@ -56,10 +56,12 @@ RUN curl -kL https://github.com/alexdobin/STAR/archive/2.5.2a.tar.gz | tar -C /d
 
 
 
-
-VOLUME [“/export/“]
-
+WORKDIR /data
+VOLUME ["/export/"]
 #EXPOSE :80
+ENTRYPOINT ["/bin/bash”]
+
+
 
 
 
