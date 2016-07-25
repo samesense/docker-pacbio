@@ -1,6 +1,1 @@
-The current version install:
-* pitchfork
-* blasr
-* pbccs
-* pbcore
-
+The current version install blasr, pbccs, and pbcore using pitchfork

@@ -20,7 +20,9 @@ RUN apt-get update && apt-get install -y \
 
 RUN mkdir -p /software && git clone https://github.com/PacificBiosciences/pitchfork.git /software/pitchfork
 WORKDIR /software/pitchfork
-RUN make PREFIX=/opt/pacbio blasr pbccs pbcore
+RUN make PREFIX=/opt/pacbio blasr
+RUN make PREFIX=/opt/pacbio pbccs
+RUN make PREFIX=/opt/pacbio pbcore
 
 
 WORKDIR /data
