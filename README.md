@@ -1,1 +1,1 @@
-The current version install blasr, pbccs, and pbcore using pitchfork
+The current version install blasr, bax2bam, pbccs, and pbcore using pitchfork
